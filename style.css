@@ -221,3 +221,7 @@ html.js .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
+
+html.js .card.reveal.is-visible:hover {
+  transform: translateY(-4px);
+}
