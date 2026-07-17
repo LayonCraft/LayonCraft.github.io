@@ -1,0 +1,37 @@
+/* style.css */
+:root {
+  --bg: #0F0F14;
+  --bg-card: #1A1A22;
+  --primary: #FF6B35;
+  --accent: #FF3D8A;
+  --text: #F5F5F5;
+  --text-muted: #A0A0AA;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
