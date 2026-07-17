@@ -186,3 +186,26 @@ a {
   color: var(--text-muted);
   font-size: 0.8rem;
 }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero {
+    min-height: 50vh;
+    padding: 3rem 1rem;
+  }
+
+  .hero__blob {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card__icon {
+    margin-bottom: 0.5rem;
+  }
+}
