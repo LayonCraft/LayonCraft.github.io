@@ -140,6 +140,12 @@ a {
   margin-bottom: 0.75rem;
 }
 
+.card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .card__button {
   display: inline-block;
   background: linear-gradient(135deg, var(--primary), var(--accent));
@@ -154,6 +160,19 @@ a {
 
 .card__button:hover {
   filter: brightness(1.1);
+}
+
+.card__button--secondary {
+  background: none;
+  border: 1px solid var(--accent);
+  color: var(--text);
+  padding: calc(0.6rem - 1px) calc(1.2rem - 1px);
+  transition: background 0.2s ease;
+}
+
+.card__button--secondary:hover {
+  background: rgba(255, 61, 138, 0.15);
+  filter: none;
 }
 
 /* Footer */

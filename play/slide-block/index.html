@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Block — Play in Browser | LayonCraft</title>
+  <style>
+    :root {
+      --bg: #0F0F14;
+      --primary: #FF6B35;
+      --accent: #FF3D8A;
+      --text: #F5F5F5;
+      --text-muted: #A0A0AA;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      gap: 1rem;
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 5vw, 2.5rem);
+      letter-spacing: 0.03em;
+    }
+
+    p {
+      color: var(--text-muted);
+      max-width: 28rem;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      margin-top: 0.5rem;
+      transition: background 0.2s ease;
+    }
+
+    a:hover {
+      background: rgba(255, 61, 138, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <!-- Placeholder page. When the Unity WebGL build is exported, point the
+       export target at this folder — Unity will generate its own index.html,
+       Build/, and TemplateData/ here, replacing this placeholder. -->
+  <h1>Slide Block</h1>
+  <p>The playable browser build isn't live yet — check back soon.</p>
+  <a href="../../">&larr; Back to LayonCraft</a>
+</body>
+</html>
