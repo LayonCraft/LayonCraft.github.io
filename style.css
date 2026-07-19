@@ -114,13 +114,7 @@ a {
   width: 4rem;
   height: 4rem;
   border-radius: 0.75rem;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  color: var(--text);
+  object-fit: cover;
 }
 
 .card__title {
