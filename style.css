@@ -65,10 +65,8 @@ a {
 .hero__wordmark {
   position: relative;
   z-index: 1;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: clamp(2.5rem, 8vw, 5rem);
-  letter-spacing: 0.05em;
+  width: min(90%, 32rem);
+  height: auto;
 }
 
 .hero__tagline {
